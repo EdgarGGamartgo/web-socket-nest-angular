@@ -1,0 +1,6 @@
+<textarea
+  *ngIf="document && document.doc"
+  [(ngModel)]='document.doc'
+  (keyup)='editDoc()'
+  placeholder='Start typing...'
+></textarea>
